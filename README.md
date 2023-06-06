@@ -1,5 +1,5 @@
 # Twitter-Categorizer-Data-Engineering-ML
-**Techniques**: Data Extracting, Data Engineering, Data Science, ML <br/>
+**Techniques**: Data Extracting, Data Cleaning, Data Engineering, Data Science, ML <br/>
 **Tools**: Pyspark, SQL, MongoDB
 
 ## Objective
