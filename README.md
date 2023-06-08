@@ -3,8 +3,15 @@
 **Tools**: Pyspark, SQL, MongoDB
 
 ## Objective
+* Twitter is a popular online social networking platform that allows users to post texts, images, and videos as “tweets.” <br/>
+Hashtags (adding # in the beginning of a word) can group similar tweets and link to other tweets that include them, <br/>
+however, if a user doesn’t provide hashtags, it is hard to label a given tweet. <br/>
+
+* This project aims to utilize both big data tools and ML techniques introduced in the course as well as <br/>
+web application frameworks in order to categorize a user-provided tweet and correctly label it. <br/>
+
 * Provide support for the Data Engineering/ Software Development project in a cross-functional team <br/> 
-* **Collect and clean** data from various sources, **load data** to MongoDB, **import data** to Spark,<br/> 
+* **Collect and clean** data from various sources, **load data** to MongoDB, **import data** to Spark <br/> 
 * Perform **text-preprocessing**, and implement a **classification model** to categorize Tweets <br/>
 
 <img width="461" alt="Screen Shot 2023-05-29 at 12 06 29 AM" src="https://github.com/SeungPang11/Twitter-Categorizer-Data-Engineering-ML/assets/67944800/83d201b3-5c1e-48a0-bd84-1e7c1fa2acad"> <br/>
@@ -23,19 +30,32 @@ Example - cleaned stocks-related tweets dataset <br />
 
 ## Methods
 ____**Data Cleaning**____<br />
-* 
-*
+* Drop unnecessary columns, rename columns
+* Rearrange columns, add lables based on topics
+* Convert date object to datetime to ensure consistency
+
+<img width="400" alt="Screen Shot 2023-06-08 at 3 22 04 PM" src="https://github.com/SeungPang11/Twitter-Categorizer-Data-Engineering-ML/assets/67944800/71e1b3bd-69b0-4b79-a818-bf104502e5b0"> <br/>
+
 
 ____**Load Data in MongoDB to Spark**____<br />
-* 
-* 
+* Load final combined data to MongoDB
+* The following command retrieves data from MongoDB to Spark for further use
+
+<img width="400" alt="Screen Shot 2023-06-08 at 3 23 43 PM" src="https://github.com/SeungPang11/Twitter-Categorizer-Data-Engineering-ML/assets/67944800/7055493c-0431-4cc9-8c9d-150d7bb62142"> <br/>
+
 
 ____**Spark for Text Pre-Processing**____<br />
-* 
+* Remove punctuation and special characters
+* Convert all text to lowercase 
+* Tokenizing text using regex
+* TF-IDF vectorizer for converting tweet into a matrix of TF-IDF features - <br />
+each row corresponds to a document <br />
+and each column corresponds to a word or phrase <br />
+
 
 ____**Logistic Regression Model for Multiclass Classification**____<br />
-* 
-
+* Split the dataset into a training and testing dataset (80-20 split) 
+* Logistic Regression model on the training set and evaluate its performance
 
 
 ## Result <br/>
