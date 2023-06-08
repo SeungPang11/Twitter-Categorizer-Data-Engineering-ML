@@ -3,9 +3,9 @@
 **Tools**: Pyspark, SQL, MongoDB
 
 ## Objective
-* In support of the Data Engineering/ Software Development project, <br/> 
-* **collect and clean** data from various sources, **load data** to MongoDB, **import data** to Spark,<br/> 
-* perform **text-preprocessing**, and implement a **classification model** to categorize Tweets <br/>
+* Provide support for the Data Engineering/ Software Development project in a cross-functional team <br/> 
+* **Collect and clean** data from various sources, **load data** to MongoDB, **import data** to Spark,<br/> 
+* Perform **text-preprocessing**, and implement a **classification model** to categorize Tweets <br/>
 
 <img width="461" alt="Screen Shot 2023-05-29 at 12 06 29 AM" src="https://github.com/SeungPang11/Twitter-Categorizer-Data-Engineering-ML/assets/67944800/83d201b3-5c1e-48a0-bd84-1e7c1fa2acad"> <br/>
 
