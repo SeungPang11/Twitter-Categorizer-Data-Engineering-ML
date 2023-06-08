@@ -2,14 +2,15 @@
 **Techniques**: Data Collection, Data Cleaning, Data Engineering, Data Science, ML <br/>
 **Tools**: Pyspark, SQL, MongoDB
 
-## Objective
-* Twitter is a popular online social networking platform that allows users to post texts, images, and videos as “tweets.” <br/>
-Hashtags (adding # in the beginning of a word) can group similar tweets and link to other tweets that include them, <br/>
+## Problem
+* Twitter is a popular online social networking platform that allows users to post texts as “tweets.” <br/>
+Hashtags can group similar tweets and link to other tweets that include them, <br/>
 however, if a user doesn’t provide hashtags, it is hard to label a given tweet. <br/>
 
-* This project aims to utilize both big data tools and ML techniques introduced in the course as well as <br/>
-web application frameworks in order to categorize a user-provided tweet and correctly label it. <br/>
+* This project aims to utilize Big Data tools and ML techniques as well as <br/>
+Web Application frameworks to categorize a user-provided tweet and correctly label it. <br/>
 
+## Objective
 * Provide support for the Data Engineering/ Software Development project in a cross-functional team <br/> 
 * **Collect and clean** data from various sources, **load data** to MongoDB, **import data** to Spark <br/> 
 * Perform **text-preprocessing**, and implement a **classification model** to categorize Tweets <br/>
