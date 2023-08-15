@@ -33,14 +33,14 @@ Example - cleaned stocks-related tweets dataset <br />
 ____**Data Cleaning**____<br />
 * Drop unnecessary columns, rename columns
 * Rearrange columns, add lables based on topics
-* Convert date object to datetime to ensure consistency
+* Convert date object to datetime to ensure consistency <br />
 
 <img width="400" alt="Screen Shot 2023-06-08 at 3 22 04 PM" src="https://github.com/SeungPang11/Twitter-Categorizer-Data-Engineering-ML/assets/67944800/71e1b3bd-69b0-4b79-a818-bf104502e5b0"> <br/>
 
 
 ____**Load Data in MongoDB to Spark**____<br />
 * Load final combined data to MongoDB
-* The following command retrieves data from MongoDB to Spark for further use
+* The following command retrieves data from MongoDB to Spark for further use <br />
 
 <img width="400" alt="Screen Shot 2023-06-08 at 3 23 43 PM" src="https://github.com/SeungPang11/Twitter-Categorizer-Data-Engineering-ML/assets/67944800/7055493c-0431-4cc9-8c9d-150d7bb62142"> <br/>
 
@@ -53,6 +53,7 @@ ____**Spark for Text Pre-Processing**____<br />
 each row corresponds to a document <br />
 and each column corresponds to a word or phrase <br />
 
+<img width="400" alt="Screen Shot 2023-08-15 at 2 30 36 PM" src="https://github.com/SeungPang11/Twitter-Categorizer-Data-Engineering-ML/assets/67944800/2a3bffad-9f8a-465f-b7df-7b3d8583bc80"> <br />
 
 ____**Logistic Regression Model for Multiclass Classification**____<br />
 * Split the dataset into a training and testing dataset (80-20 split) 
@@ -61,6 +62,7 @@ ____**Logistic Regression Model for Multiclass Classification**____<br />
 
 ## Result <br/>
 * Prediction - the model achieved an accuracy score of ≈ 68% <br />
+
 <img width="400" alt="Screen Shot 2023-06-03 at 11 53 40 AM" src="https://github.com/SeungPang11/Twitter-Categorizer-Data-Engineering-ML/assets/67944800/4d5c6e14-7481-4ea4-8c9d-c9be40823cef"> <br />
 
 <img width="400" alt="Screen Shot 2023-06-06 at 7 24 47 PM" src="https://github.com/SeungPang11/Twitter-Categorizer-Data-Engineering-ML/assets/67944800/6a36a281-7422-4d87-bff4-6d723c621d31"> <br />
